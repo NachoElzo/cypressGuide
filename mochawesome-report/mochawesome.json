@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-08-13T13:57:09.655Z",
+    "end": "2023-08-13T13:57:12.860Z",
+    "duration": 3205,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1f51f2a2-9f7d-4e19-bd2c-10be120966f4",
+      "title": "",
+      "fullFile": "cypress/e2e/validationsAndCommands.cy.js",
+      "file": "cypress/e2e/validationsAndCommands.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c4241ca4-0ccd-43f9-ad5d-baafbc7a7578",
+          "title": "This is test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This is the first test",
+              "fullTitle": "This is test This is the first test",
+              "timedOut": null,
+              "duration": 2241,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Get the contained text of an item\n//we can use the command pause in order to pause the execution and debug in the cypress UI\ncy.get('.col > :nth-child(3)').pause().should('contain.text', 'Cypress').pause();\n//select a link with text 'www.freerangetesters.com'\n//debug function will print the object information in the developer tool of the cypress UI (Inspect - console)\ncy.get('a[href*=\"www.freerangetesters.com\"]').debug().pause();\n//other way to debug in the cypress UI ('This will not works in the console execution')\ncy.log('We are going to debug this in the UI');\n//wait not recomended\ncy.wait(2000);",
+              "err": {},
+              "uuid": "40c4f575-5611-4880-80bc-999cf0021e03",
+              "parentUUID": "c4241ca4-0ccd-43f9-ad5d-baafbc7a7578",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "40c4f575-5611-4880-80bc-999cf0021e03"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2241,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

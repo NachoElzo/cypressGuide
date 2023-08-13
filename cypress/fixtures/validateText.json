@@ -1,0 +1,18 @@
+[
+{
+    "url": "https://the-internet.herokuapp.com/abtest",
+    "text": "A/B Test Control"
+},
+{
+    "url": "https://the-internet.herokuapp.com/add_remove_elements/",
+    "text": "Add/Remove Elements"
+},
+{
+    "url": "https://the-internet.herokuapp.com/broken_images",
+    "text": "Broken Images"
+},
+{
+    "url": "https://the-internet.herokuapp.com/challenging_dom",
+    "text": "Challenging DOM"
+}
+]
