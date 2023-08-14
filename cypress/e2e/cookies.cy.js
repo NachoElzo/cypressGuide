@@ -37,6 +37,30 @@ describe('Login store sesion', () => {
         //validating that the cookie exist
         cy.getCookie('createdByAutomation').should('exist')
 
+        This will relead all the session created
+        cy.relead()
     })
+})
+*/
+
+
+//How to preserve cookies for login purpouse
+
+/*
+cy.describe('Login with cookie', () => {
+   beforeEach(() => {
+      Cypress.Cookies.preserveOnce('cookieName')
+      cy.visit('LoginUrl')
+   });
+   it('login1', () => {
+      cy.setCookie('cookieName', 'valueLoginCookie')
+   });
+   cy.reload()
+   it('login 3', () => {
+      
+   });
+   it('login 3', () => {
+    
+ });
 })
 */

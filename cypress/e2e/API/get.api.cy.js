@@ -5,6 +5,9 @@
 //400 - 499 client error // 400 BAD REQUEST , 403 = FORBIDDEN, 404 = NOT FOUND
 //500 -599 server error //500 INTERNAL SERVER ERROR
 
+//We can create request en beforeeach hook in order to log in or
+//works when you have much request of the same type (post, get ,etc)
+
 //GET: is used to request data from a specified resource.
 
 describe('GET users', () => {

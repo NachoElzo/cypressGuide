@@ -15,6 +15,8 @@ describe('This is test', () => {
         //wait not recomended
         cy.wait(2000)
 
+        //cy.get('body').should('have.css','background-color', 'rgb(5, 90, 140)')
+
     })
     
 })
